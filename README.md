@@ -15,9 +15,7 @@ New portfolio with SVG and powered by Grunt. Runs on Bootstrap and uses the Boot
 =========
 
 css/animate.scss - Stripped down version of animate.css for animations
-
 css/bootstrap.scss - Stripped down version of bootstrap.css
-
 css/fonts.scss  - Includes fonts Glyphicons and Layla Bold; rendered by FontSquirrel
 css/frames.scss - Includes Bootstrap grid
 css/style.scss - Custom CSS for Portfolio, About and Skills and import of all CSS
