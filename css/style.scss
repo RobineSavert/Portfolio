@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  background: url("../../img/build/flowers.svg") no-repeat scroll right -16px rgba(0, 0, 0, 0);
+  background: url("../svg/flowers.svg") no-repeat scroll right -16px rgba(0, 0, 0, 0);
   content: "";
 }
 
@@ -183,7 +183,7 @@ h1, h2, h3, h4, h5, h6 {
       margin-bottom: 0px;
       margin-top: 0px;
       &:before  {
-        background: url("../../img/build/flower-single.svg") no-repeat scroll left center / 40px 35px transparent;
+        background: url("../svg/flower-single.svg") no-repeat scroll left center / 40px 35px transparent;
         content: "";
         height: 40px;
         padding-right: 45px;
@@ -232,7 +232,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 59px;
     font-size: $header-one;
     color: $fourth-color;
-    background: url("../../img/build/flower-blockquote.svg") no-repeat scroll center bottom / 320px 45px transparent;
+    background: url("../svg/flower-blockquote.svg") no-repeat scroll center bottom / 320px 45px transparent;
     content: "";
 
   }
@@ -283,7 +283,7 @@ h1, h2, h3, h4, h5, h6 {
     color: $fifth-color;
   }
   &:after {
-    background: url("../../img/build/flower-small.svg") no-repeat scroll left bottom / 155px 125px transparent;
+    background: url("../svg/flower-small.svg") no-repeat scroll left bottom / 155px 125px transparent;
     bottom: 20px;
     content: "";
     height: 125px;
