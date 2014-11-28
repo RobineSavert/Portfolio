@@ -5,6 +5,8 @@ New portfolio with SVG and powered by Grunt. Runs on Bootstrap and uses the Boot
 
 =========
 
+JS
+
 * js/bootstrap.js - Bootstrap main js
 * js/custom.js - Includes toggles & triggers for portfolio items
 * js/retina.js - Scans img folder for @2x files and presents them when retina is detected
@@ -14,21 +16,27 @@ New portfolio with SVG and powered by Grunt. Runs on Bootstrap and uses the Boot
 
 =========
 
-css/animate.scss - Stripped down version of animate.css for animations
-css/bootstrap.scss - Stripped down version of bootstrap.css
-css/fonts.scss  - Includes fonts Glyphicons and Layla Bold; rendered by FontSquirrel
-css/frames.scss - Includes Bootstrap grid
-css/style.scss - Custom CSS for Portfolio, About and Skills and import of all CSS
-css/tabs.scss - Tab styling
-css/variables.scss - Contains colors, font sizes etc
+SCSS/CSS
 
-css/build/style.css - SASS compiled css of all stylesheets in /css
+* css/animate.scss - Stripped down version of animate.css for animations
+* css/bootstrap.scss - Stripped down version of bootstrap.css
+* css/fonts.scss  - Includes fonts Glyphicons and Layla Bold; rendered by FontSquirrel
+* css/frames.scss - Includes Bootstrap grid
+* css/style.scss - Custom CSS for Portfolio, About and Skills and import of all CSS
+* css/tabs.scss - Tab styling
+* css/variables.scss - Contains colors, font sizes etc
+
+* css/build/style.css - SASS compiled css of all stylesheets in /css
 
 =========
+
+IMG
 
 img/ - Contains all images for portfolio and about page
 
 =========
+
+SVG
 
 svg/ - Contains all SVG files
 
