@@ -1,0 +1,94 @@
+.nav-tabs {
+  border-bottom: 0px;
+
+}
+
+.nav-tabs > li {
+  margin-bottom: 0px;
+  outline: 0 none;
+}
+
+.nav-tabs > li > a {
+  border-radius: 0px;
+  margin: 0px;
+  outline: 0 none;
+  border: 0px solid transparent;
+  padding: 0px 20px;
+  font-size: $smaller-text;
+  color: $third-color;
+  font-weight: bold;
+  &:hover{
+    color: $fifth-color;
+  }
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  border-width: 0px;
+  outline: 0 none;
+  color: $fifth-color;
+  background-color: transparent;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+  outline: 0 none;
+}
+
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+  border-color: #fff;
+  outline: 0 none;
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.tab-content {
+  border-top: 1px solid $third-color;
+}
+
+#tabs {
+  text-transform: $text-transform;
+  padding: 55px 0 0 0;
+  float: right;
+}
+
+
+
+@media (max-width: 991px) {
+  .nav > li:first-of-type a {
+    padding: 0px;
+  }
+  .nav > li:last-of-type a {
+    padding: 0px;
+  }
+  #tabs {
+    padding: 20px 0;
+    float: left;
+  }
+  .nav-tabs > li > a {
+    font-size: $smaller-text;
+  }
+
+}
+
+
+
+
+
+@media (min-width: 375px) and (max-width: 991px) {
+  .nav-tabs > li > a {
+    padding: 0px 90px;
+    font-size: $smaller-text;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+  .nav-tabs > li > a {
+    padding: 0px 60px;
+    font-size: $smaller-text;
+  }
+}

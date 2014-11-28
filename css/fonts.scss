@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Glyphicons Halflings';
+
+  src: url('../../fonts/glyphicons-halflings-regular.eot');
+  src: url('../../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+  url('../../fonts/glyphicons-halflings-regular.woff') format('woff'),
+  url('../../fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+  url('../../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+
+@font-face {
+  font-family: 'laylaboldbold';
+  src: url('../../fonts/laylabold-webfont.eot');
+  src: url('../../fonts/laylabold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../../fonts/laylabold-webfont.woff2') format('woff2'),
+  url('../../fonts/laylabold-webfont.woff') format('woff'),
+  url('../../fonts/laylabold-webfont.ttf') format('truetype'),
+  url('../../fonts/laylabold-webfont.svg#laylaboldbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.glyphicon-star:before {
+  content: "\e006";
+}
+
+.glyphicon-leaf:before {
+  content: "\e103";
+}
+
+.glyphicon-remove:before {
+  content: "\e014";
+}

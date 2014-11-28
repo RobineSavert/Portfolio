@@ -1,0 +1,344 @@
+@import 'variables';
+@import 'bootstrap';
+@import 'animate';
+@import 'fonts';
+@import 'frame';
+@import 'tabs';
+
+
+body {
+  font: $normal-text Tahoma,sans-serif;
+  background: $first-color;
+  color: $second-color;
+  line-height: 26px;
+}
+
+.container {
+  background: url("../../img/build/flowers.svg") no-repeat scroll right -16px rgba(0, 0, 0, 0);
+  content: "";
+}
+
+a {
+  outline: 0 none;
+}
+
+h1 {
+  font-size: $header-one;
+  color: $second-color;
+}
+h2 {
+  font-size: $header-two;
+  color: $third-color;
+}
+h3 {
+  font-size: $header-three;
+  color: $second-color;
+}
+h4 {
+  font-size: $header-four;
+  color: $fifth-color;
+}
+h5 {
+  font-size: $header-five;
+}
+h6 {
+  font-size: $header-six;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 5px;
+  margin-top: 0px;
+  font-family: "laylaboldbold";
+}
+
+.row {
+  &.intro {
+    padding-top: 60px;
+    border-top: 3px solid $third-color;
+    margin-bottom: 0px;
+    header {
+      text-transform: $text-transform;
+      h2 {
+        color:$fourth-color;
+        font-size: $header-five;
+      }
+    }
+  }
+}
+
+#portfolio {
+  .more-button {
+    display: block;
+    font-family: "laylaboldbold";
+    text-transform: $text-transform;
+    color: $second-color;
+    font-size: $big-text;
+    outline: 0 none;
+    margin: 20px 0;
+    &:hover {
+      text-decoration: none;
+      color: $fourth-color;
+    }
+    &:active {
+      text-decoration: none;
+    }
+    &selected {
+      text-decoration: none;
+    }
+  }
+  .modal-lg img {
+    height: 90%;
+    margin: 0 auto 40px;
+    width: 90%;
+  }
+  button.close {
+    margin: 20px;
+  }
+  h3.lead {
+    padding: 20px 0;
+    border-bottom: 1px solid $third-color;
+    margin-bottom: 20px;
+    font-size: $header-three;
+    color:$sixth-color;
+    font-weight: normal;
+  }
+  .trigger {
+    cursor: pointer;
+    display: block;
+    .img-overlay {
+      position: relative;
+      max-width: 100%;
+      margin-bottom: 20px;
+      opacity: 0.5;
+      img {
+        width: 100%;
+        border: 1px solid $sixth-color;
+      }
+      .project-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.9);
+        color: #fff;
+        display: none;
+        vertical-align: middle;
+        padding: 50px 0;
+        border: 1px solid $sixth-color;
+        h3 {
+          color: $second-color;
+          font-size: $big-text;
+        }
+        p {
+          color: $fourth-color;
+          font-family: "laylaboldbold";
+          font-size: $header-four;
+        }
+      }
+    }
+  }
+  .buttons {
+    border-top: 1px solid $fourth-color;
+    border-bottom: 1px solid $fourth-color;
+    padding: 5px 0;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: $smaller-text;
+    .btn-link {
+      display: block;
+      color: $fourth-color;
+      text-transform: $text-transform;
+      font-weight: bold;
+      outline: 0 none;
+    }
+    .btn-link:hover,
+    .btn-link:focus,
+    .btn-link:active {
+      color: $fifth-color;
+      text-decoration: none;
+      outline: 0 none;
+    }
+    .text-right .close {
+      float: none;
+      font-size: $smaller-text;
+      line-height: inherit;
+      opacity: inherit;
+      text-shadow: none;
+
+    }
+    .col-md-4 {
+      padding: 0px;
+      
+    }
+  }
+
+
+
+  .toggle {
+    display: none;
+    padding: 0 0 20px 0;
+    h3 {
+      margin-bottom: 0px;
+      margin-top: 0px;
+      &:before  {
+        background: url("../../img/build/flower-single.svg") no-repeat scroll left center / 40px 35px transparent;
+        content: "";
+        height: 40px;
+        padding-right: 45px;
+        width: 35px;
+      }
+    }
+    ul {
+      margin: 0px;
+      padding: 0px;
+      li {
+        margin-top: 6px;
+        list-style-type: none;
+        text-decoration: none;
+        border-bottom: 1px solid $sixth-color;
+        padding: 5px 0;
+        color: $second-color;
+        &:first-of-type {
+          border-top: 1px solid $sixth-color;
+        }
+      }
+
+    }
+  }
+}
+
+#about {
+  padding-top: 20px;
+  h3 {
+    color: $fifth-color;
+  }
+  h4 {
+    color: $fifth-color;
+    margin-top: 50px;
+  }
+  img {
+    opacity: 0.7;
+    border: 1px solid $sixth-color;
+  }
+  blockquote {
+    padding-left: 0;
+    padding-right: 0;
+    border-left: 0 none;
+    font-family: "laylaboldbold";
+    line-height: 36px;
+    margin: 10% 0;
+    padding-bottom: 59px;
+    font-size: $header-one;
+    color: $fourth-color;
+    background: url("../img/build/flower-blockquote.svg") no-repeat scroll center bottom / 320px 45px transparent;
+    content: "";
+
+  }
+  a {
+    color: $fifth-color;
+    &:hover {
+      color: $fourth-color;
+      text-decoration: none;
+    }
+  }
+  p{
+    margin: 0 0 20px;
+  }
+  ul{
+    margin: 25px 0;
+    padding: 0px;
+
+    li {
+      margin-top: 6px;
+      list-style-type: none;
+      text-decoration: none;
+      border-bottom: 1px solid $sixth-color;
+      padding: 5px 0;
+      &:first-of-type {
+        border-top: 0px solid $sixth-color;
+      }
+    }
+  }
+}
+
+
+#skills {
+  position: relative;
+  padding-top: 20px;
+  ul {
+    margin: 0px;
+    padding: 0px;
+    li {
+      list-style-type: none;
+      margin-bottom: 25px;
+      p {
+        margin-bottom: 0px;
+        font-size: $normal-text;
+      }
+    }
+  }
+  i {
+    color: $fifth-color;
+  }
+  &:after {
+    background: url("../../img/build/flower-small.svg") no-repeat scroll left bottom / 155px 125px transparent;
+    bottom: 20px;
+    content: "";
+    height: 125px;
+    position: absolute;
+    left: 10px;
+    width: 155px;
+    transform: rotate(32deg) ;
+    -webkit-transform: rotate(32deg) ;
+    -moz-transform: rotate(32deg) ;
+    -o-transform: rotate(32deg) ;
+    -ms-transform: rotate(32deg) ;
+  }
+}
+
+
+footer {
+  border-top: 1px solid $third-color;
+  padding: 5px 0 0 0;
+  color: $third-color;
+}
+
+
+
+
+@media (min-width: 320px) and (max-width: 991px) {
+  header {
+    border-bottom: 1px solid $third-color;
+  }
+  #portfolio h3.lead {
+    font-size: $mobile-lead;
+  }
+
+  .container {
+    background-size: 200px;
+  }
+
+  .bio {
+    line-height: 30px;
+  }
+
+  .bio p {
+    margin: 0 0 40px;
+  }
+
+}
+
+
+
+@media (min-width: 320px) and (max-width: 991px) {
+
+  footer .text-center {
+    text-align: left;
+  }
+
+  footer .text-right {
+    text-align: left;
+  }
+}
