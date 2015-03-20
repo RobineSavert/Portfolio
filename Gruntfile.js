@@ -7,7 +7,7 @@ module.exports = function(grunt) {
             dist: {
                 src: [
                     'js/bootstrap.js',
-                     'js/custom.js'// All JS in the libs folder
+                     'js/custom.js'
                 ],
                 dest: 'js/build/production.js'
             }
